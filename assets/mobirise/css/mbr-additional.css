@@ -1601,6 +1601,10 @@ body {
 .cid-qMVObCR4FE .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
 }
+.cid-qMVObCR4FE .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+.cid-qMVObCR4FE .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
+  margin-bottom: 1rem;
+}
 .cid-qMVObCR4FE .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-qMVObCR4FE .collapsed .navbar-collapse.show .navbar-buttons {
   text-align: center;
@@ -1694,6 +1698,10 @@ body {
   .cid-qMVObCR4FE .navbar-collapse.collapsing .navbar-nav .nav-item,
   .cid-qMVObCR4FE .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
+  }
+  .cid-qMVObCR4FE .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+  .cid-qMVObCR4FE .navbar-collapse.show .navbar-nav .nav-item:last-child {
+    margin-bottom: 1rem;
   }
   .cid-qMVObCR4FE .navbar-collapse.collapsing .navbar-buttons,
   .cid-qMVObCR4FE .navbar-collapse.show .navbar-buttons {
@@ -1826,7 +1834,7 @@ body {
   }
 }
 .cid-qNpd74kMPZ {
-  background-image: url("../../../assets/images/topo1-2000x1500.jpg");
+  background-image: url("../../../assets/images/topo1-2000x15001.jpg");
 }
 .cid-qNpd74kMPZ .mbr-media span {
   font-size: 48px;
